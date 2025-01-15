@@ -35,12 +35,16 @@ $ npm install
 ## Testing the app
 
 ```bash
-npm run test
+npm run start
 ```
 
 ## Results
 
-
+```bash
+(node:72977) ExperimentalWarning: CommonJS module /Users/michailmichailidis/Projects/lang-demo/dist/app.controller.js is loading ES Module /Users/michailmichailidis/Projects/lang-demo/node_modules/language-tags/lib/index.js using require().
+Support for loading ES Module in require() is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+```
 
 ## License
 
